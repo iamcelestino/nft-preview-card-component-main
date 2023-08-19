@@ -9,8 +9,9 @@
 
 
 ### Links
-- Solution URL: [solution URL here](https://github.com/iamcelestino/nft-preview-card-component-main)
 - Live Site URL: [live site URL here](https://iamcelestino.github.io/nft-preview-card-component-main/)
+- Solution URL: [solution URL here](https://github.com/iamcelestino/nft-preview-card-component-main)
+
 
 ## My process
 
