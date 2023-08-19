@@ -116,9 +116,9 @@ img{
     
 }
 
-@media (min-width: 500px){
+@media (min-width: 31.25em){
     body{
-        max-width: 400px;
+        max-width: 25em;
         margin: auto;
     } 
 }
