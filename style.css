@@ -34,12 +34,13 @@ main{
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    cursor: pointer;
 }
 
 .wrapper{
     background-color: var(--neutral-card-bg);
-    padding: 1.5rem;
-    border-radius: 20px;
+    padding: 1.3rem;
+    border-radius: 10px;
 }
 
 .description{
@@ -55,7 +56,7 @@ main{
 
 .price-and-time{
     justify-content: space-between;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid var(--neutral-line);
     padding: 1rem 0;
 }
 
@@ -79,7 +80,45 @@ h4, span{
     width: 10%;
 }
 
+span:hover, h4:hover, .price p:hover{
+    color: var(--primary-cyan);
+    cursor: pointer;
+}
+
+.images:hover{
+    background: url(images/icon-view.svg) no-repeat;
+    background-position: 50%;
+    border-radius: 10px;
+    background-color: var(--primary-cyan)
+}
+
+.images img:hover{
+    mix-blend-mode: saturation;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
 img{
     max-width: 100%;
     border-radius: 10px;
+}
+
+.attribution { 
+    color: var(--neutral-white);
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a:nth-child(2) { 
+    color: var(--primary-cyan); 
+    
+}
+
+@media (min-width: 500px){
+    body{
+        max-width: 400px;
+        margin: auto;
+    } 
 }
